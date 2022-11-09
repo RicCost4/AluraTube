@@ -1,0 +1,62 @@
+{
+    "nome": "Richard Artur",
+    "job": "Estagiario de Dev",
+    "github": "RicCost4",
+    "banner": "https://images.pexels.com/photos/343457/pexels-photo-343457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "playlist":{
+        "jogos": [
+            {
+                "title": "God of War Ragnarok - Parte 1: Colisão dos Deuses!!!",
+                "url": "https://www.youtube.com/watch?v=dzzIHQ1aJ_s",
+                "thumb": "https://sm.ign.com/ign_br/news/p/psa-god-of/psa-god-of-war-ragnarok-spoilers-have-begun-to-leak_vw8s.jpg"
+            },
+            {
+                "title": "COD Modern Warfare 2 (2022) - Parte 1: Ghost Ativado!!!",
+                "url": "https://www.youtube.com/watch?v=z2nbCwvRlp4&t=739s",
+                "thumb": "https://i.ytimg.com/vi/z2nbCwvRlp4/maxresdefault.jpg"
+            },
+            {
+                "title": "World of Warcraft (2022) - Gameplay",
+                "url": "https://www.youtube.com/watch?v=DJaANEbcjuQ",
+                "thumb": "https://www.global-esports.news/wp-content/uploads/2022/02/WoW-Patch-9.2.5.jpg"
+            },
+            {
+                "title": "combat arms 2022",
+                "url": "https://www.youtube.com/watch?v=w79n19bykkE",
+                "thumb": "https://i.ytimg.com/vi/pUU-WGNE3C8/maxresdefault.jpg"
+            },
+            {
+                "title": "dofus gameplay 2022",
+                "url": "https://www.youtube.com/watch?v=8uOLm05lN-w",
+                "thumb": "https://i.ytimg.com/vi/pvBFMM_mPvk/maxresdefault.jpg"
+            }
+        ],
+        "front-end": [
+            {
+                "title": "Começa aqui o novo Curso de HTML5 e CSS3",
+                "url": "https://www.youtube.com/watch?v=Ejkb_YpuHWs",
+                "thumb": "https://i.ytimg.com/vi/Ejkb_YpuHWs/maxresdefault.jpg?v=5f8061fa"
+            },
+            {
+                "title": "Orientações a Objetos e Programação Funcional em PHP com Vinicius Dias",
+                "url": "https://www.youtube.com/watch?v=yU-C-SYtCX8",
+                "thumb": "https://i.ytimg.com/vi/yU-C-SYtCX8/maxresdefault.jpg"
+            },
+            {
+                "title": "Não erre mais como todo mundo quando o assunto for Virtualização",
+                "url": "https://www.youtube.com/watch?v=YoWZxwhNM3g",
+                "thumb": "https://i.ytimg.com/vi/MDJdYQeCyo0/maxresdefault.jpg"
+            },
+            {
+                "title": "O que é Código Limpo? // (Entendendo o Livro Clean Code - Capítulo 1)",
+                "url": "https://www.youtube.com/watch?v=O5aWwBXPoh4",
+                "thumb": "https://i.ytimg.com/vi/O5aWwBXPoh4/maxresdefault.jpg"
+            },
+            {
+                "title": "Qual Foi a 'Sacada Invisível' Que Fez Meu Último Projeto Dar Certo?",
+                "url": "https://www.youtube.com/watch?v=Jau0Rn_ADxo",
+                "thumb": "https://i.ytimg.com/vi/Jau0Rn_ADxo/maxresdefault.jpg"
+            }
+        ]
+    }
+}
