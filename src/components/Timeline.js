@@ -1,3 +1,4 @@
+//componente do estilo da timeline
 import styled from "styled-components";//Import da configuração do estilos.
 
 export const StyledTimeline = styled.div`

@@ -51,4 +51,4 @@ export default function Search( {valorDoFiltro, setValorDoFiltro} ) {
 }
 
 // ----Anotações----
-  // Quando vc for usar a variavel 'infosDoEvento', vc pd abreviar para 'e'
+  // Quando vc for usar a variavel 'infosDoEvento', vc pd abreviar para 'e', pois é uma nomeclatura padrão utilizada na programação

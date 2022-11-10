@@ -1,3 +1,5 @@
+//arquivo que reseta o css globalmente
+
 import { createGlobalStyle } from "styled-components";//Import da configuração do estilos.
 
 export const CSSReset = createGlobalStyle`
@@ -9,8 +11,8 @@ export const CSSReset = createGlobalStyle`
   }
   body {
     font-family: sans-serif;
-    background-color: ${({theme}) => theme.backgroundBase};//variavel pegando do _app.js
-    color: ${({theme}) => theme.textColorBase};//variavel pegando do _app.js
+    background-color: ${({theme}) => theme.backgroundBase};
+    color: ${({theme}) => theme.textColorBase};
   }
   /* NextJS */
   html {

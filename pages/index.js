@@ -6,21 +6,21 @@ import { StyledTimeline } from "../src/components/Timeline";//importação do cs
 
 function HomePage() {
     
-    const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+    const [valorDoFiltro, setValorDoFiltro] = React.useState(""); //variavel que vai captura o estado da pagina na busca do componente Search.js
     return(
         <>
-            {/* criamos o _app.js(pesquisar no google para achar a documentação do arquivo) para setamos algumas configurações a adição do uns componetes, ele carrega junto com o index.js */}
+            {/* criamos o _app.js(pesquisar no google para achar a documentação do arquivo) para setamos algumas configurações globais a aplicação rodando junto com index.js como componente filho */}
             
             <div style={{
                 display: "flex",
                 flexDirection: "column",
                 flex: 1
             }}>
-                <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+                <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />{/* div do index da pasta Menu */}
 
-                <Header />
+                <Header /> {/* div da função Header */}
 
-                <Timeline searchValue={valorDoFiltro} playlist={config.playlist} />
+                <Timeline searchValue={valorDoFiltro} playlist={config.playlist} /> {/* div da função Timeline */}
             </div>
         </>
     );
@@ -68,7 +68,6 @@ function Header() {
 }
 
 function Timeline({searchValue, ...props}) { //é uma variavel de propriedades.
-    // console.log(`Dentro do componente ${props.playlist}`)
     const playlistName = Object.keys(props.playlist)
 
     return (
