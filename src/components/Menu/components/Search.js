@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components"
+import React from "react";//importação da biblioteca do react para usar a mudança de estado da pagina na variavel 'onChange=()'
+import styled from "styled-components"//Import da configuração do estilos.
 
 const StyledSearch = styled.div`
   display: flex;

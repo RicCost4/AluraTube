@@ -1,16 +1,16 @@
-import React from "react";
+import React from "react"; //importação da biblioteca do react para usar a mudança de estado da pagina na variavel 'React.useState("")'
 import config from "../my-config.json"; //Import da minha configuração para captar as minhas variaveis criadas.
 import styled from "styled-components"; //Import da configuração do estilos.
-import { CSSReset } from "../src/components/CSS.resert";
-import Menu from "../src/components/Menu";
-import { StyledTimeline } from "../src/components/Timeline";
+import Menu from "../src/components/Menu";//importação da tag menu na sua pasta
+import { StyledTimeline } from "../src/components/Timeline";//importação do css da timeline
 
 function HomePage() {
     
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
     return(
         <>
-            <CSSReset />
+            {/* criamos o _app.js(pesquisar no google para achar a documentação do arquivo) para setamos algumas configurações a adição do uns componetes, ele carrega junto com o index.js */}
+            
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -28,17 +28,9 @@ function HomePage() {
 
 export default HomePage
 
-// function Menu() {
-
-//     return (
-//         <div>
-//             Menu
-//         </div>
-//     )
-// }
-
 // Criar a classe para configurar o estilo e setar na tag que for usar.
 const StyleHeader = styled.div`
+    background-color: ${({theme}) => theme.backgroundLevel1};
     img{
         width: 80px;
         height: 80px;
@@ -55,7 +47,7 @@ const StyleHeader = styled.div`
   `;
 
 const StyledBanner = styled.div`
-    background-color: red;
+    background-color: ${({theme}) => theme.backgroundLevel1};
     background-image: url(${config.banner});
     height: 230px;
 `

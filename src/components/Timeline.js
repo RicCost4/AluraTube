@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components";//Import da configuração do estilos.
 
 export const StyledTimeline = styled.div`
   flex: 1;
