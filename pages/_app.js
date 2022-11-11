@@ -1,7 +1,8 @@
 import { CSSReset } from "../src/components/CSS.resert";//importação do css glogal criado pela gente
 import { ThemeProvider } from "styled-components";//importação da biblioteca do css styled-components
-import ColorModeProvider, {ColorModeContex} from "../src/components/Menu/components/ColorMode"
+import ColorModeProvider, {ColorModeContex} from "../src/components/Menu/components/ColorMode";
 import React from "react";//importação da biblioteca do react para usar a mudança de estado da pagina na variavel 'React.useContext()'
+import RegisterVideo from "../src/components/RegisterVideo";//Chamar o botão de adicionar como componente para todas as telas
 
 // _app.js -> defição globais da sua app
 // ThemeProvider -> prover o tema para a app toda
@@ -37,6 +38,7 @@ function MyApp({ Component, pageProps }) {
         <ThemeProvider theme={theme[contexto.mode]}>
             <CSSReset />
             <Component {...pageProps} />
+            <RegisterVideo />
         </ThemeProvider>
     )
   }
