@@ -1,0 +1,14 @@
+//codigo com os incremento para o banco de dados.
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = "sua requisição"
+const supabaseKey = "sua chave"
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+export function videoServices(){
+    return{
+        getAllVideos(){
+            return supabase.from("video").select("*")
+        }
+    }
+}
